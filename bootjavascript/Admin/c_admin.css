@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 1;
+  background: linear-gradient(to top, #ffeffb, #c7ffff);
+  font-size: 16px;
+  width: 100%;
+}
+
+.container {
+    text-align: center;
+    padding: 200px;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 30px;
+    color: #580000;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+    font-size: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 25px;
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+  background: #ffe8ff6c;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.904);
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background-color: #dddbff;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card:active {
+  transform: scale(0.97);
+  background-color: #bbdefb;
+}
+`
+.card img {
+  width: 10px;
+  height: 10px;
+  margin: 10px;
+}
+
+.card h3 {
+  color: #7a0000;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.card h4 {
+  color: #7a0000;
+  font-size: 14px;
+  margin: 10px;
+}
+
+.card h2 {
+  color: #7a0000;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.card p {
+  font-size: 13px;
+  color: #660000;
+}

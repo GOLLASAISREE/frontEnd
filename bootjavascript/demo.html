@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEMO of JS Alert</title>
+    <script>
+        function displaytext() {
+            let txtname= document.getElementById("txtname").value;
+            document.getElementById("txtdisplay").innerHTML = "Hello " + txtname;
+        }
+    </script>
+</head>
+<body>
+    <script>
+        alert("Hello! This is a JavaScript alert.");
+    </script>
+    <h1>Demo of JavaScript Alert</h1>
+    <input type="text" id="txtname" placeholder="Your Name">
+    <br>
+    <br>
+    <button onclick="displaytext()">Submit</button>
+    <br>
+    <br>
+    <label id="txtdisplay"></label>
+    <br>
+</body>
+</html>
